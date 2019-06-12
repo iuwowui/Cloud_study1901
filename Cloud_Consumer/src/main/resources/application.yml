@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: HelloConsumer
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9902
